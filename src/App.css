@@ -3,6 +3,7 @@
   margin: 0 auto;
 }
 .item {
+  cursor: pointer;
   padding: 10px;
   margin: 20px;
   background-color: #ccc;
