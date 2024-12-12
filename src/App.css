@@ -1,0 +1,17 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.item {
+  padding: 10px;
+  margin: 20px;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  p {
+    /* Add your styles for screens 600px or less here */
+    /* Example style */
+    text-align: justify;
+  }
+}
