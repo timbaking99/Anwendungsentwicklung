@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Wie man einen Python-Chatbot erstellt",
+    "description": "In dieser Anleitung lernen Sie, wie man einen einfachen Chatbot mit Python und der Natural Language Toolkit (NLTK)-Bibliothek erstellt.",
+    "difficulty": "Mittel",
+    "steps": [
+      "Installieren Sie die NLTK-Bibliothek mit pip.",
+      "Laden Sie vorgefertigte Sprachmodelle von NLTK herunter.",
+      "Erstellen Sie eine Funktion, die Benutzereingaben analysiert.",
+      "Nutzen Sie einfache Entscheidungsbäume oder regelbasierte Antworten für den Chatbot.",
+      "Testen Sie den Chatbot mit verschiedenen Benutzereingaben."
+    ]
+  },
+  {
+    "title": "Erstellen einer To-Do-Liste mit einer SQLite-Datenbank",
+    "description": "Diese Anleitung zeigt Ihnen, wie Sie eine einfache To-Do-Liste mit Python und einer SQLite-Datenbank erstellen.",
+    "difficulty": "Leicht",
+    "steps": [
+      "Installieren Sie SQLite und die SQLite3-Bibliothek.",
+      "Erstellen Sie eine SQLite-Datenbank mit einer Tabelle für Aufgaben.",
+      "Erstellen Sie Funktionen, um Aufgaben hinzuzufügen, zu löschen und anzuzeigen.",
+      "Verwenden Sie ein einfaches Python-Skript, um mit der Datenbank zu interagieren.",
+      "Testen Sie die To-Do-Liste mit verschiedenen Aufgaben."
+    ]
+  },
+  {
+    "title": "Web-Scraping mit BeautifulSoup und Requests",
+    "description": "Lernen Sie, wie man mit Python und den Bibliotheken BeautifulSoup und Requests Informationen von einer Webseite extrahiert.",
+    "difficulty": "Mittel",
+    "steps": [
+      "Installieren Sie die Bibliotheken BeautifulSoup und Requests.",
+      "Senden Sie eine HTTP-Anfrage an die Webseite und erhalten Sie den HTML-Code.",
+      "Analysieren Sie den HTML-Code mit BeautifulSoup.",
+      "Extrahieren Sie spezifische Daten wie Titel, Links oder Texte.",
+      "Speichern Sie die extrahierten Daten in einer CSV-Datei."
+    ]
+  },
+  {
+    "title": "Maschinelles Lernen mit Scikit-Learn",
+    "description": "Diese Anleitung zeigt Ihnen, wie man mit Scikit-Learn ein einfaches maschinelles Lernmodell erstellt.",
+    "difficulty": "Fortgeschritten",
+    "steps": [
+      "Installieren Sie Scikit-Learn und Pandas.",
+      "Laden Sie einen Datensatz (z.B. Iris-Datensatz) mit Pandas.",
+      "Bereiten Sie die Daten vor (z.B. durch Normalisierung und Aufteilung in Trainings- und Testdaten).",
+      "Wählen Sie ein Modell aus (z.B. K-Nearest Neighbors oder Entscheidungsbaum).",
+      "Trainieren Sie das Modell und bewerten Sie die Genauigkeit auf den Testdaten."
+    ]
+  },
+  {
+    "title": "Erstellen einer einfachen API mit Flask",
+    "description": "In dieser Anleitung erstellen Sie eine einfache REST-API mit Flask, einem Python-Webframework.",
+    "difficulty": "Mittel",
+    "steps": [
+      "Installieren Sie Flask mit pip.",
+      "Erstellen Sie eine Flask-Anwendung und definieren Sie Routen für verschiedene Endpunkte.",
+      "Verarbeiten Sie HTTP-Anfragen und geben Sie JSON-Daten zurück.",
+      "Fügen Sie eine Datenbankanbindung hinzu (z.B. SQLite).",
+      "Testen Sie die API mit Tools wie Postman oder cURL."
+    ]
+  },
+  {
+    "title": "Einrichtung eines Python-Entwicklungsumgebung mit Docker",
+    "description": "In dieser Anleitung lernen Sie, wie Sie eine Python-Entwicklungsumgebung in einem Docker-Container einrichten.",
+    "difficulty": "Fortgeschritten",
+    "steps": [
+      "Installieren Sie Docker auf Ihrem System.",
+      "Erstellen Sie eine Dockerfile für eine Python-Anwendung.",
+      "Bauen Sie das Docker-Image und starten Sie einen Container.",
+      "Führen Sie Python-Code im Container aus.",
+      "Testen Sie die Anwendung und stellen Sie sicher, dass sie in der isolierten Umgebung funktioniert."
+    ]
+  },
+  {
+    "title": "Automatisierung von Aufgaben mit Python und Selenium",
+    "description": "Diese Anleitung erklärt, wie man Selenium verwendet, um wiederholende Aufgaben im Webbrowser zu automatisieren.",
+    "difficulty": "Mittel",
+    "steps": [
+      "Installieren Sie Selenium und den WebDriver für Ihren bevorzugten Browser.",
+      "Schreiben Sie ein Skript, das eine Webseite lädt und auf bestimmte Elemente zugreift.",
+      "Automatisieren Sie Formulareingaben oder das Navigieren auf einer Seite.",
+      "Verwenden Sie Wartezeiten, um sicherzustellen, dass die Seite vollständig geladen ist.",
+      "Speichern Sie die Ergebnisse oder Interaktionen in einer Datei."
+    ]
+  },
+  {
+    "title": "Erstellen eines einfachen Spiels mit Pygame",
+    "description": "In dieser Anleitung lernen Sie, wie man ein einfaches Spiel (z.B. ein Snake-Spiel) mit Pygame erstellt.",
+    "difficulty": "Mittel",
+    "steps": [
+      "Installieren Sie Pygame mit pip.",
+      "Erstellen Sie ein Fenster und zeichnen Sie grundlegende Grafiken.",
+      "Implementieren Sie die Logik für das Spiel (z.B. Snake-Bewegung und Kollisionen).",
+      "Fügen Sie eine Punktzahl und ein Game Over hinzu.",
+      "Testen und verbessern Sie das Spiel mit verschiedenen Funktionen."
+    ]
+  }
+]
