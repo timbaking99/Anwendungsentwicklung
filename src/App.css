@@ -6,7 +6,7 @@
   cursor: pointer;
   padding: 10px;
   margin: 20px;
-  background-color: #ccc;
+  background-color: rgb(125, 15, 28);
   border-radius: 8px;
 }
 @media (max-width: 600px) {
