@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Search</h1>
+      <h1 className="text-red-800 text-3xl">Search</h1>
       <input type="text" value={Query} onChange={handleInputChange} />
       {data.map(
         (item, index) =>
