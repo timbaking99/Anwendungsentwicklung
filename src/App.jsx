@@ -15,14 +15,18 @@ function App() {
 
   const [Query, setQuery] = useState("");
 
-  const handleInputChange = (event) => {
-    setQuery(event.target.value);
+  const handleInputChange = (event, value) => {
+
+    //setQuery(value?.title ?? ""); 
+    setQuery(value? value.title : "");
+    console.log(value);
   };
 
   return (
     <div className="container">
       <h1>Search</h1>
       <Autocomplete
+      onChange={handleInputChange}
       placeholder="Combo box"
       options={data}
       getOptionLabel={option => option.title}
