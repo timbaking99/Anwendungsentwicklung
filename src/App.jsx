@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import data from "./data.json";
+import * as React from 'react';
+import Autocomplete from '@mui/joy/Autocomplete';
 
 function App() {
   const [status, setStatus] = useState({});
@@ -20,7 +22,14 @@ function App() {
   return (
     <div className="container">
       <h1>Search</h1>
-      <input type="text" value={Query} onChange={handleInputChange} />
+      <Autocomplete
+      placeholder="Combo box"
+      options={data}
+      getOptionLabel={option => option.title}
+      sx={{ width: 300 }}
+
+    />
+
       {data.map(
         (item, index) =>
           item.title.toLowerCase().includes(Query.toLowerCase()) && (
@@ -46,3 +55,7 @@ function App() {
 }
 
 export default App;
+
+
+
+
