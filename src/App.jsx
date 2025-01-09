@@ -23,12 +23,10 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="">
 
       <h1 className="text-red-600">Search</h1>
 
-
-      <h1>Search</h1>
       <Autocomplete
       onChange={handleInputChange}
       placeholder="Combo box"
@@ -43,14 +41,14 @@ function App() {
         (item, index) =>
           item.title.toLowerCase().includes(Query.toLowerCase()) && (
             <div
-              className="item"
+              className=""
               key={index}
               onClick={() => handleItemClick(index)}
             >
-              <h2>{item.title}</h2>
-              <p>{item.description}</p>
+              <h2 className="font-bold">{item.title}</h2>
+              <p className="font-serif text-green-600">{item.description}</p>
               {status[index] && (
-                <ol>
+                <ol className="text-orange-600">
                   {item.steps.map((step, stepIndex) => (
                     <li key={stepIndex}>{step}</li>
                   ))}
