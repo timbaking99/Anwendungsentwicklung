@@ -1,0 +1,138 @@
+[
+  {
+    "id": "Mathematik 1",
+    "title": "Grundlagen der Mathematik",
+    "source": "Lehrbuch A",
+    "relatedmodules": [
+      "Mathematik 2",
+      "Differentialgleichungen",
+      "Lineare Algebra",
+      "Vektorrechnung",
+      "Technische Mechanik 1"
+    ]
+  },
+  {
+    "id": "Mathematik 2",
+    "title": "Fortgeschrittene Mathematik",
+    "source": "Lehrbuch B",
+    "relatedmodules": ["Mathematik 1", "Differentialgleichungen"]
+  },
+  {
+    "id": "Technische Mechanik 1",
+    "title": "Einführung in die Technische Mechanik",
+    "source": "Lehrbuch C",
+    "relatedmodules": [
+      "Mathematik 1",
+      "Statik",
+      "Dynamik",
+      "Vektorrechnung",
+      "Maschinenelemente"
+    ]
+  },
+  {
+    "id": "Technische Mechanik 2",
+    "title": "Vertiefung der Technischen Mechanik",
+    "source": "Lehrbuch D",
+    "relatedmodules": ["Dynamik", "Elektronik"]
+  },
+  {
+    "id": "BWL",
+    "title": "Grundlagen der Betriebswirtschaftslehre",
+    "source": "Lehrbuch E",
+    "relatedmodules": ["VWL", "Kostenrechnung"]
+  },
+  {
+    "id": "VWL",
+    "title": "Grundlagen der Volkswirtschaftslehre",
+    "source": "Lehrbuch F",
+    "relatedmodules": ["BWL"]
+  },
+  {
+    "id": "Programmierung",
+    "title": "Einführung in die Programmierung",
+    "source": "Lehrbuch G",
+    "relatedmodules": ["Algorithmen"]
+  },
+  {
+    "id": "Werkstoffkunde",
+    "title": "Materialwissenschaften und Werkstoffe",
+    "source": "Lehrbuch H",
+    "relatedmodules": ["Materialwissenschaften", "Thermodynamik"]
+  },
+  {
+    "id": "Differentialgleichungen",
+    "title": "Theorie und Anwendung von Differentialgleichungen",
+    "source": "Lehrbuch I",
+    "relatedmodules": ["Mathematik 1", "Mathematik 2"]
+  },
+  {
+    "id": "Statik",
+    "title": "Grundlagen der Statik",
+    "source": "Lehrbuch J",
+    "relatedmodules": ["Technische Mechanik 1"]
+  },
+  {
+    "id": "Dynamik",
+    "title": "Einführung in die Dynamik",
+    "source": "Lehrbuch K",
+    "relatedmodules": [
+      "Technische Mechanik 1",
+      "Technische Mechanik 2",
+      "Maschinenelemente"
+    ]
+  },
+  {
+    "id": "Lineare Algebra",
+    "title": "Vektorräume und Matrizen",
+    "source": "Lehrbuch L",
+    "relatedmodules": ["Mathematik 1"]
+  },
+  {
+    "id": "Vektorrechnung",
+    "title": "Grundlagen der Vektorrechnung",
+    "source": "Lehrbuch M",
+    "relatedmodules": ["Mathematik 1", "Technische Mechanik 1"]
+  },
+  {
+    "id": "Kostenrechnung",
+    "title": "Grundlagen der Kostenrechnung",
+    "source": "Lehrbuch N",
+    "relatedmodules": ["BWL"]
+  },
+  {
+    "id": "Algorithmen",
+    "title": "Entwurf und Analyse von Algorithmen",
+    "source": "Lehrbuch O",
+    "relatedmodules": ["Programmierung"]
+  },
+  {
+    "id": "Materialwissenschaften",
+    "title": "Eigenschaften und Anwendungen von Materialien",
+    "source": "Lehrbuch P",
+    "relatedmodules": ["Werkstoffkunde"]
+  },
+  {
+    "id": "Maschinenelemente",
+    "title": "Konstruktion und Berechnung",
+    "source": "Lehrbuch Q",
+    "relatedmodules": ["Technische Mechanik 1", "Dynamik", "Regelungstechnik"]
+  },
+  {
+    "id": "Elektronik",
+    "title": "Grundlagen der Elektronik",
+    "source": "Lehrbuch R",
+    "relatedmodules": ["Technische Mechanik 2"]
+  },
+  {
+    "id": "Thermodynamik",
+    "title": "Grundlagen der Wärmelehre",
+    "source": "Lehrbuch S",
+    "relatedmodules": ["Werkstoffkunde", "Regelungstechnik"]
+  },
+  {
+    "id": "Regelungstechnik",
+    "title": "Grundlagen der Regelungssysteme",
+    "source": "Lehrbuch T",
+    "relatedmodules": ["Thermodynamik", "Maschinenelemente"]
+  }
+]
