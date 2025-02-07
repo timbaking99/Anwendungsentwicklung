@@ -1,0 +1,17 @@
+export const COLORS = {
+  MODULE: '#1f77b4',
+  CONCEPT: '#2ecc71',
+  LINK: '#94a3b8',
+  TEXT: '#000000',
+  BACKGROUND: '#ffffff'
+};
+
+export const GRAPH_CONFIG = {
+  LINK_DISTANCE: 150,
+  NODE_SIZE: 6,
+  LINK_WIDTH: 1.5,
+  ZOOM_LEVEL: 2.5,
+  ANIMATION_DURATION: 1000,
+  VELOCITY_DECAY: 0.3,
+  FONT_SIZE_BASE: 12
+}; 
