@@ -35,6 +35,12 @@ function App() {
 
   return (
     <div className="container mx-auto p-4">
+      <div className="text-center mb-8">
+        <h1 className="text-4xl font-bold text-gray-800 tracking-wide">
+          Studienführer
+        </h1>
+      </div>
+
       <div className="flex items-center justify-between mb-4">
         <SearchBar 
           onInputChange={handleInputChange} 
